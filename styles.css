@@ -1,0 +1,58 @@
+/* General styles for the popup */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    width: 300px; /* Width of the popup */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+/* Title styles */
+h1 {
+    font-size: 18px;
+    margin: 0 0 10px 0; /* Margin below the title */
+    color: #333; /* Darker text color */
+    text-align: center; /* Center the title */
+}
+
+/* Input field styles */
+input[type="text"] {
+    width: 100%; /* Full width of the input */
+    padding: 8px; /* Padding inside the input */
+    margin-bottom: 10px; /* Space below the input */
+    border: 1px solid #ccc; /* Light border color */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Button styles */
+button {
+    width: 100%; /* Full width of the button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size of the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Status message styles */
+.status {
+    margin-top: 10px; /* Space above the status message */
+    color: #28a745; /* Green for success messages */
+    text-align: center; /* Center the message */
+}
+
+/* Error message styles */
+.error {
+    color: #dc3545; /* Red for error messages */
+    text-align: center; /* Center the message */
+}
+
+

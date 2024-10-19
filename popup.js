@@ -13,3 +13,4 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         document.getElementById('message').innerText = "Error: Could not create the clip.";
     }
 });
+

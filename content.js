@@ -1,3 +1,4 @@
+
 chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
     if (message.action === "clip") {
         const videoElement = document.querySelector('video');
@@ -5,9 +6,12 @@ chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
             const currentTime = Math.floor(videoElement.currentTime);
             const clipStartTime = Math.max(0, currentTime - 30);
 
-            // Get the video URL and construct the clipped URL
+            // Get the video URL and extract the video ID
             const videoUrl = window.location.href;
-            const clippedUrl = `${videoUrl}&start=${clipStartTime}&end=${currentTime}`;
+            const videoId = videoUrl.split('v=')[1].split('&')[0]; // Extract video ID
+
+            // Construct the clipped embed URL
+            const clippedUrl = `https://www.youtube.com/embed/${videoId}?start=${clipStartTime}&end=${currentTime}&autoplay=true`;
 
             // Send the response back to popup.js
             chrome.runtime.sendMessage({status: "success", clipUrl: clippedUrl});
@@ -16,3 +20,5 @@ chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
         }
     }
 });
+
+
