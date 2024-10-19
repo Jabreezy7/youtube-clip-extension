@@ -1,67 +1,73 @@
 /* General styles for the popup */
 body {
-    /* font-family: Arial, sans-serif; */
     font-family: 'Roboto Mono', monospace;
     margin: 0;
-    padding: 10px;
-    width: 300px; /* Width of the popup */
-    background-color: #f5f5f5; /* Light background color */
+    padding: 0.625rem;
+    width: 18.75rem;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 3.125rem;
 }
 
 /* Title styles */
 h2 {
-    font-size: 18px;
-    margin: 0 0 10px 0; /* Margin below the title */
-    color: #333; /* Darker text color */
-    text-align: center; /* Center the title */
+    font-size: 1.1rem;
+    margin: 0.625rem 0 0.3125rem 0;
+    color: #333;
+    text-align: center; 
 }
 
-/* Input field styles */
-input[type="text"] {
-    width: 100%; /* Full width of the input */
-    padding: 8px; /* Padding inside the input */
-    margin-bottom: 10px; /* Space below the input */
-    border: 1px solid #ccc; /* Light border color */
-    border-radius: 4px; /* Rounded corners */
-}
-
-/* Button styles */
+/* General Button styles */
 button {
-    width: 100%; /* Full width of the button */
-    padding: 10px; /* Padding inside the button */
-    background-color: #007bff; /* Blue background */
-    color: white; /* White text */
-    border: none; /* No border */
-    border-radius: 4px; /* Rounded corners */
-    font-size: 16px; /* Font size of the button */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s; /* Smooth transition */
+    width: 70%;
+    padding: 0.625rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-bottom: 0.9375rem;
 }
 
 /* Button hover effect */
 button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
 }
 
-/* Status message styles */
-.status {
-    margin-top: 10px; /* Space above the status message */
-    color: #28a745; /* Green for success messages */
-    text-align: center; /* Center the message */
-}
-
-/* Error message styles */
-.error {
-    color: #dc3545; /* Red for error messages */
-    text-align: center; /* Center the message */
-}
-
-#message {
-    font-family: 'Roboto Mono', monospace;
-}
-
+/* Clip button styles */
 #clip-button {
     font-family: 'Roboto Mono', monospace;
+    font-size: .8rem;
 }
 
+/* Clip link button styles */
+#clip-link {
+    color: white;
+    font-weight: normal;
+    height: 2.5rem;
+    margin: 0.0625rem 0.625rem 0.3125rem 0.625rem;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+    width: 6.25rem;
+}
 
+/* Copy button styles */
+#copy-button {
+    height: 2.5rem;
+    margin: 0.0625rem 0 0.3125rem 0.625rem;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+    width: 6.25rem; 
+}
+
+/* Affects to add when copy button is pressed */
+.green-button {
+    background-color: green;
+    color: white;
+}
+.green-button:hover {
+    background-color: darkgreen;
+}

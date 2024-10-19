@@ -8,9 +8,13 @@
 
 <body>
     <h2>YouTube Clipper</h2>
+    <div id="message" style="display: none;"></div>
     <button id="clip-button">Clip Last 30 Seconds</button>
-    <div id="message"></div>
-    <script src="popup.js"></script>
+    <div id="button-container" style="display: none;">
+        <button id="clip-link">View Clip</button>
+        <button id="copy-button">Copy URL</button>
+    </div>
+    <script type="module" src="popup.js"></script>
 </body>
 
 </html>
