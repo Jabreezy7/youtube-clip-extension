@@ -11,7 +11,7 @@ chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
             const videoId = videoUrl.split('v=')[1].split('&')[0]; // Extract video ID
 
             // Construct the clipped embed URL
-            const clippedUrl = `https://www.youtube.com/embed/${videoId}?start=${clipStartTime}&end=${currentTime}&autoplay=true`;
+            const clippedUrl = `https://www.youtube.com/embed/${videoId}?start=${clipStartTime}&end=${currentTime}`;
 
             // Send the response back to popup.js
             chrome.runtime.sendMessage({status: "success", clipUrl: clippedUrl});
