@@ -4,9 +4,7 @@
   "version": "1.0",
   "description": "Clip and share the last 30 seconds of a YouTube video.",
   "permissions": [
-    "activeTab",
-    "storage",
-    "scripting"
+    "activeTab"
   ],
   "icons": {
     "16": "/assets/cutting16.png",
