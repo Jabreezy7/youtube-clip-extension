@@ -2,13 +2,14 @@
 
 ![Promo-1400x560](https://github.com/user-attachments/assets/a74de880-d818-4c23-870f-9ec3cd117b82)
 
+## Link to Extension Listing
+
+https://chromewebstore.google.com/detail/youtube-clipper/abaeffeoghdijpompgnhikjcgnkacdmb
+
 ## Overview
 
 The **YouTube Clipper** is a Chrome extension that allows users to clip the last 30 seconds of a YouTube video and generate a shareable URL for the clipped segment. This extension simplifies sharing specific parts of videos without needing to edit or download them.
 
-## Link to Extension Listing
-
-https://chromewebstore.google.com/detail/youtube-clipper/abaeffeoghdijpompgnhikjcgnkacdmb
 
 ## Features
 
