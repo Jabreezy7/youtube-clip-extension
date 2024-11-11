@@ -23,5 +23,9 @@ The **YouTube Clipper** is a Chrome extension that allows users to clip the last
 
 Clipped videos are only accessible through the YouTube website. Users will not be able to open the clipped URLs in the YouTube app on mobile devices or other platforms. Ensure to open the generated URLs in a web browser to view the clips.
 
+## Future Plans
+
+In the future I want to integrate a button into the youtube video UI so users can clip videos conveniently.
+
 ## Icon Attribution
 Icons created by Iconjam - Flaticon(https://www.flaticon.com/free-icons/construction-and-tools)
